@@ -1,0 +1,7 @@
+kind: Secret
+apiVersion: v1
+metadata:
+  name: example-secret-path
+type: Opaque
+stringData:
+  sample-secret: <path:avp/data/test#sample>
